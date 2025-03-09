@@ -17,48 +17,48 @@ This project is a SOC automation lab designed to integrate Wazuh (SIEM/XDR), Shu
 
 ### Tools Used
 Security Information & Event Management (SIEM)
-Wazuh – Open-source SIEM and XDR platform for log analysis, intrusion detection, and incident response.
+* Wazuh – Open-source SIEM and XDR platform for log analysis, intrusion detection, and incident response.
 
 ## Security Orchestration, Automation, and Response (SOAR)
-Shuffle – Open-source SOAR platform used to automate security workflows and integrate with security tools.
+* Shuffle – Open-source SOAR platform used to automate security workflows and integrate with security tools.
 
 ## Case Management & Threat Intelligence
-The Hive – Incident response and case management platform for handling security alerts.
-VirusTotal API – Threat intelligence service used to check file hashes against a database of known malware.
+* The Hive – Incident response and case management platform for handling security alerts.
+* VirusTotal API – Threat intelligence service used to check file hashes against a database of known malware.
 
 ## Endpoint Detection & Telemetry Collection
-Sysmon (System Monitor) – Windows logging tool for capturing detailed telemetry, such as process execution and network connections.
-Windows Event Viewer – Native Windows tool for analyzing system and security logs.
+* Sysmon (System Monitor) – Windows logging tool for capturing detailed telemetry, such as process execution and network connections.
+* Windows Event Viewer – Native Windows tool for analyzing system and security logs.
 
 ## Attack Simulation & Threat Emulation
-Mimikatz – Penetration testing tool used to simulate credential theft attacks and test detection capabilities.
+* Mimikatz – Penetration testing tool used to simulate credential theft attacks and test detection capabilities.
 
 ## Infrastructure & Virtualization
-VirtualBox – Virtualization platform used to create Windows 10 and other virtual machines.
-DigitalOcean – Cloud service provider used to host Wazuh and The Hive servers.
+* VirtualBox – Virtualization platform used to create Windows 10 and other virtual machines.
+* DigitalOcean – Cloud service provider used to host Wazuh and The Hive servers.
 
 ## Networking & Security
-Firewalls (DigitalOcean & Local) – Used to restrict access and secure cloud-based virtual machines.
-SSH (Secure Shell) – Remote access protocol used to manage cloud-based Linux servers.
+* Firewalls (DigitalOcean & Local) – Used to restrict access and secure cloud-based virtual machines.
+* SSH (Secure Shell) – Remote access protocol used to manage cloud-based Linux servers.
 
 ## Log Parsing & Configuration
-PowerShell – Scripting language used to install and configure security tools on Windows.
-Nano & Vim – Command-line text editors used to modify configuration files in Linux.
+* PowerShell – Scripting language used to install and configure security tools on Windows.
+* Nano & Vim – Command-line text editors used to modify configuration files in Linux.
 
 ## Automation & Workflow Tools
-Webhook (Shuffle) – Used to receive and process alerts from Wazuh into SOAR workflows.
-Regex (Regular Expressions) – Used for parsing security event data, such as extracting SHA-256 hashes.
+* Webhook (Shuffle) – Used to receive and process alerts from Wazuh into SOAR workflows.
+* Regex (Regular Expressions) – Used for parsing security event data, such as extracting SHA-256 hashes.
 
 ## Diagramming & Documentation
-draw.io (diagrams.net) – Tool used to create network and data flow diagrams for lab architecture.
+* draw.io (diagrams.net) – Tool used to create network and data flow diagrams for lab architecture.
 
 ## Steps
 
 ## Phase 1: Planning & Architecture
 
-Define Objectives – Establish goals for SIEM, SOAR, and case management integration.
+1. Define Objectives – Establish goals for SIEM, SOAR, and case management integration.
 
-Create a Network Diagram – Design system architecture with data flow visualization.
+2. Create a Network Diagram – Design system architecture with data flow visualization.
 
 ## Phase 2: Setting Up Infrastructure
 
