@@ -1,4 +1,4 @@
-SOC Automation
+## SOC Automation
 
 ## Objective
 This project is a SOC automation lab designed to integrate Wazuh (SIEM/XDR), Shuffle (SOAR), Sysmon, and The Hive (Case Management) into a fully functional security operations workflow through cloud imstance and local/cloud vr machines. The goal is to automate threat detection, incident response, and case management while providing hands-on experience in security operations.
