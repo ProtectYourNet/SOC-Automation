@@ -62,90 +62,83 @@ Security Information & Event Management (SIEM)
 
 ## Phase 2: Setting Up Infrastructure
 
-Deploy Virtual Machines
+1. Deploy Virtual Machines
 
-Install VirtualBox (or use DigitalOcean for cloud servers).
+2. Install VirtualBox (or use DigitalOcean for cloud servers).
 
-Create a Windows 10 VM for telemetry collection.
+3. Create a Windows 10 VM for telemetry collection.
 
-Deploy Wazuh Manager, The Hive, and Shuffle servers on DigitalOcean.
+4. Deploy Wazuh Manager, The Hive, and Shuffle servers on DigitalOcean.
 
-Configure Firewalls & Secure Access
+5. Configure Firewalls & Secure Access
 
-Restrict VM access using DigitalOcean Firewalls.
+6. Restrict VM access using DigitalOcean Firewalls.
 
-Allow only trusted IPs for SSH and web dashboards.
+7. Allow only trusted IPs for SSH and web dashboards.
 
 ## Phase 3: Installing & Configuring Security Tools
 
-Set Up Wazuh SIEM
+1. Set Up Wazuh SIEM
 
-Install Wazuh Manager on Ubuntu.
+2. Install Wazuh Manager on Ubuntu.
 
-Configure firewall rules for agent communication.
+3. Configure firewall rules for agent communication.
 
-Verify dashboard access.
+4. Verify dashboard access.
 
-Install & Configure The Hive
+5. Install & Configure The Hive
 
-Install Cassandra, Elasticsearch, and The Hive.
+6. Install Cassandra, Elasticsearch, and The Hive.
 
-Configure settings for web accessibility.
+7. Configure settings for web accessibility.
 
-Install & Configure Windows Telemetry
+8. Install & Configure Windows Telemetry
 
-Install Sysmon for advanced event logging.
+9. Install Sysmon for advanced event logging.
 
-Configure Wazuh Agent for log forwarding.
+10. Configure Wazuh Agent for log forwarding.
 
 ## Phase 4: Generating & Detecting Security Events
 
-Simulate Attacks for Detection
+1. Simulate Attacks for Detection
 
-Run Mimikatz to generate credential theft logs.
+2. Run Mimikatz to generate credential theft logs.
 
-Verify Sysmon logs in Windows Event Viewer.
+3. Verify Sysmon logs in Windows Event Viewer.
 
-Ingest & Analyze Logs in Wazuh
+4. Ingest & Analyze Logs in Wazuh
 
-Modify osc.conf file to enable telemetry collection.
+5. Modify osc.conf file to enable telemetry collection.
 
-Create custom Wazuh rules for threat detection.
+6. Create custom Wazuh rules for threat detection.
 
 ## Phase 5: Automating Incident Response
 
-Integrate Shuffle SOAR
+1. Integrate Shuffle SOAR
 
-Configure Wazuh to send alerts to Shuffle via webhooks.
+2. Configure Wazuh to send alerts to Shuffle via webhooks.
 
-Debug connectivity issues.
+3. Debug connectivity issues.
 
-Create an Automation Workflow
+4. Create an Automation Workflow
 
-Extract SHA-256 hashes from alerts.
+5. Extract SHA-256 hashes from alerts.
 
-Query VirusTotal API for reputation analysis.
+6. Query VirusTotal API for reputation analysis.
 
-Create incidents in The Hive.
+7. Create incidents in The Hive.
 
-Send email notifications to SOC analysts.
+8. Send email notifications to SOC analysts.
 
-Implement Active Response Actions
+9. Implement Active Response Actions
 
-Automate blocking of suspicious IPs based on alerts.
+10. Automate blocking of suspicious IPs based on alerts.
 
-Final Steps: Testing & Optimization
+## Final Steps: Testing & Optimization
 
-Test End-to-End Workflow
+1. Test End-to-End Workflow
 
-Validate event ingestion, alerting, and case creation.
+2. Validate event ingestion, alerting, and case creation.
 
-Ensure automation workflows execute correctly.
+3. Ensure automation workflows execute correctly.
 
-Optimize & Document
-
-Fine-tune detection rules and responses.
-
-Document configurations and troubleshooting steps.
-
-Share project details on GitHub.
