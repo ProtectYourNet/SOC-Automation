@@ -16,7 +16,7 @@ This project is a SOC automation lab designed to integrate Wazuh (SIEM/XDR), Shu
 ✅ Cloud Infrastructure – Deploying Ubuntu VMs on DigitalOcean for Wazuh and The Hive.
 
 ### Tools Used
-##Security Information & Event Management (SIEM)
+## Security Information & Event Management (SIEM)
 * Wazuh – Open-source SIEM and XDR platform for log analysis, intrusion detection, and incident response.
 
 ## Security Orchestration, Automation, and Response (SOAR)
